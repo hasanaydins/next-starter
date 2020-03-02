@@ -7,7 +7,24 @@ function HomePage() {
         <Head>
             <title>Homepage</title>
         </Head>
-      <h1>Home Page</h1>
+      <h1 className='title'>Home Page</h1>
+
+
+        <style jsx>{`
+            .title{
+            background-color: grey;
+            font-size: 42px;
+            color: white;
+            }
+      `}</style>
+        <style global jsx>{`
+            body{
+            background-color: rgb(247,255,200);
+            }
+            html{
+                font-size: 45px;
+            }
+      `}</style>
     </Layout>
   )
 }
