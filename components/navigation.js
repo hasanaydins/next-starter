@@ -1,10 +1,10 @@
 import Link from 'next/link'
-
+import styles from './layout.module.css'
 function Navigation() {
   return (
     <nav>
       <Link href="/">
-        <a>Home</a>
+        <a className={styles.link}>Home</a>
       </Link>
       <Link href="/about">
         <a>About</a>
